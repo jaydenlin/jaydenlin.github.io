@@ -1,44 +1,59 @@
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>威宇&庭萱 婚禮出席統計</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="威宇&庭萱 婚禮出席統計" />
+</head>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+    crossorigin="anonymous">
 <div class="wrapper">
     <div class="google-form">
-        <iframe name='google-form-frame' id="google-form-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSc-DUgwxg6nmvDlRJMP9boGhHs30fjOJPY7KjFA53kgL2eg9w/viewform" frameborder="0"
-                width="100%" height="100%" scrolling="no" onload="onFrameLoad(this)"></iframe>    
+        <iframe name='google-form-frame' id="google-form-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSc-DUgwxg6nmvDlRJMP9boGhHs30fjOJPY7KjFA53kgL2eg9w/viewform"
+            frameborder="0" width="100%" height="100%" scrolling="no" onload="onFrameLoad(this)"></iframe>
     </div>
 </div>
 <style>
-    .wrapper{
+    .wrapper {
         width: 100%;
     }
-    #google-form-frame{
+
+    #google-form-frame {
         position: absolute;
         z-index: 1;
     }
+
     .google-form {
         width: 100%;
         height: 3330px;
         padding: 0;
-        overflow: hidden; 
+        overflow: hidden;
         margin: auto;
         position: relative;
     }
-    .side-dummy-cover{
+
+    .side-dummy-cover {
         background-color: white;
         width: 40px;
         height: 100%;
         position: absolute;
         z-index: 10;
     }
-    .top-dummy-cover{
+
+    .top-dummy-cover {
         width: 700px;
         height: 186px;
-        left:0px;
+        left: 0px;
     }
-    .left-dummy-cover{
-       left:11px;
-        
+
+    .left-dummy-cover {
+        left: 11px;
     }
-    .right-dummy-cover{
-       right:-11px; 
+
+    .right-dummy-cover {
+        right: -11px;
     }
 
     .snowflake {
@@ -51,9 +66,11 @@
         user-select: none;
         z-index: 1000;
     }
+
     .snowflake:hover {
         cursor: default;
     }
+
     @-webkit-keyframes fall {
         0% {
             opacity: 0.9;
@@ -64,7 +81,7 @@
             top: 100%
         }
     }
-    
+
     @keyframes fall {
         0% {
             opacity: 0.9;
@@ -75,7 +92,7 @@
             top: 100%
         }
     }
-    
+
     @-webkit-keyframes blow-soft-left {
         0% {
             margin-left: 0
@@ -84,7 +101,7 @@
             margin-left: -50%
         }
     }
-    
+
     @keyframes blow-soft-left {
         0% {
             margin-left: 0
@@ -93,7 +110,7 @@
             margin-left: -30%
         }
     }
-    
+
     @-webkit-keyframes blow-medium-left {
         0% {
             margin-left: 0
@@ -102,7 +119,7 @@
             margin-left: -100%
         }
     }
-    
+
     @keyframes blow-medium-left {
         0% {
             margin-left: 0
@@ -111,7 +128,7 @@
             margin-left: -100%
         }
     }
-    
+
     @-webkit-keyframes blow-soft-right {
         0% {
             margin-left: 0
@@ -120,7 +137,7 @@
             margin-left: 50%
         }
     }
-    
+
     @keyframes blow-soft-right {
         0% {
             margin-left: 0
@@ -129,7 +146,7 @@
             margin-left: 50%
         }
     }
-    
+
     @-webkit-keyframes blow-medium-right {
         0% {
             margin-left: 0
@@ -138,7 +155,7 @@
             margin-left: 100%
         }
     }
-    
+
     @keyframes blow-medium-right {
         0% {
             margin-left: 0
@@ -147,7 +164,7 @@
             margin-left: 100%
         }
     }
-    
+
     @-webkit-keyframes sway-0 {
         0% {
             -webkit-transform: rotate(-5deg)
@@ -159,7 +176,7 @@
             -webkit-transform: rotate(3deg)
         }
     }
-    
+
     @keyframes sway-0 {
         0% {
             -ms-transform: rotate(-5deg);
@@ -174,7 +191,7 @@
             transform: rotate(3deg)
         }
     }
-    
+
     @-webkit-keyframes sway-1 {
         0% {
             -webkit-transform: rotate(10deg)
@@ -186,7 +203,7 @@
             -webkit-transform: rotate(15deg)
         }
     }
-    
+
     @keyframes sway-1 {
         0% {
             -ms-transform: rotate(10deg);
@@ -201,7 +218,7 @@
             transform: rotate(15deg)
         }
     }
-    
+
     @-webkit-keyframes sway-2 {
         0% {
             -webkit-transform: rotate(15deg)
@@ -213,7 +230,7 @@
             -webkit-transform: rotate(22deg)
         }
     }
-    
+
     @keyframes sway-2 {
         0% {
             -ms-transform: rotate(15deg);
@@ -228,7 +245,7 @@
             transform: rotate(22deg)
         }
     }
-    
+
     @-webkit-keyframes sway-3 {
         0% {
             -webkit-transform: rotate(25deg)
@@ -240,7 +257,7 @@
             -webkit-transform: rotate(37deg)
         }
     }
-    
+
     @keyframes sway-3 {
         0% {
             -ms-transform: rotate(25deg);
@@ -255,7 +272,7 @@
             transform: rotate(37deg)
         }
     }
-    
+
     @-webkit-keyframes sway-4 {
         0% {
             -webkit-transform: rotate(40deg)
@@ -267,7 +284,7 @@
             -webkit-transform: rotate(25deg)
         }
     }
-    
+
     @keyframes sway-4 {
         0% {
             -ms-transform: rotate(40deg);
@@ -282,7 +299,7 @@
             transform: rotate(25deg)
         }
     }
-    
+
     @-webkit-keyframes sway-5 {
         0% {
             -webkit-transform: rotate(50deg)
@@ -294,7 +311,7 @@
             -webkit-transform: rotate(40deg)
         }
     }
-    
+
     @keyframes sway-5 {
         0% {
             -ms-transform: rotate(50deg);
@@ -309,7 +326,7 @@
             transform: rotate(40deg)
         }
     }
-    
+
     @-webkit-keyframes sway-6 {
         0% {
             -webkit-transform: rotate(65deg)
@@ -321,7 +338,7 @@
             -webkit-transform: rotate(58deg)
         }
     }
-    
+
     @keyframes sway-6 {
         0% {
             -ms-transform: rotate(65deg);
@@ -336,7 +353,7 @@
             transform: rotate(58deg)
         }
     }
-    
+
     @-webkit-keyframes sway-7 {
         0% {
             -webkit-transform: rotate(72deg)
@@ -348,7 +365,7 @@
             -webkit-transform: rotate(68deg)
         }
     }
-    
+
     @keyframes sway-7 {
         0% {
             -ms-transform: rotate(72deg);
@@ -363,7 +380,7 @@
             transform: rotate(68deg)
         }
     }
-    
+
     @-webkit-keyframes sway-8 {
         0% {
             -webkit-transform: rotate(94deg)
@@ -375,7 +392,7 @@
             -webkit-transform: rotate(82deg)
         }
     }
-    
+
     @keyframes sway-8 {
         0% {
             -ms-transform: rotate(94deg);
@@ -390,198 +407,207 @@
             transform: rotate(82deg)
         }
     }
-    
+
     .sakura {
         background: -webkit-linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
         background: linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
         pointer-events: none;
         position: absolute;
-        z-index:10;
+        z-index: 10;
     }
-    
-    
 </style>
-<script
-src="https://code.jquery.com/jquery-2.2.4.min.js"
-integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
 <script>
     (function ($) {
-    /** Polyfills and prerequisites **/
+        /** Polyfills and prerequisites **/
 
-    // requestAnimationFrame Polyfill
-    var lastTime    = 0;
-    var vendors     = ['webkit', 'o', 'ms', 'moz', ''];
-    var vendorCount = vendors.length;
+        // requestAnimationFrame Polyfill
+        var lastTime = 0;
+        var vendors = ['webkit', 'o', 'ms', 'moz', ''];
+        var vendorCount = vendors.length;
 
-    for (var x = 0; x < vendorCount && ! window.requestAnimationFrame; ++x) {
-        window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
-        window.cancelAnimationFrame  = window[vendors[x] + 'CancelAnimationFrame'] || window[vendors[x] + 'CancelRequestAnimationFrame'];
-    }
+        for (var x = 0; x < vendorCount && !window.requestAnimationFrame; ++x) {
+            window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
+            window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] || window[vendors[x] +
+                'CancelRequestAnimationFrame'];
+        }
 
-    if ( ! window.requestAnimationFrame) {
-        window.requestAnimationFrame = function(callback) {
-            var currTime   = new Date().getTime();
-            var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+        if (!window.requestAnimationFrame) {
+            window.requestAnimationFrame = function (callback) {
+                var currTime = new Date().getTime();
+                var timeToCall = Math.max(0, 16 - (currTime - lastTime));
 
-            var id   = window.setTimeout(function() { callback(currTime + timeToCall); }, timeToCall);
-            lastTime = currTime + timeToCall;
+                var id = window.setTimeout(function () {
+                    callback(currTime + timeToCall);
+                }, timeToCall);
+                lastTime = currTime + timeToCall;
 
-            return id;
-        };
-    }
+                return id;
+            };
+        }
 
-    if ( ! window.cancelAnimationFrame) {
-        window.cancelAnimationFrame = function(id) {
-            clearTimeout(id);
-        };
-    }
+        if (!window.cancelAnimationFrame) {
+            window.cancelAnimationFrame = function (id) {
+                clearTimeout(id);
+            };
+        }
 
-    // Prefixed event check
-    $.fn.prefixedEvent = function(type, callback) {
-        for (var x = 0; x < vendorCount; ++x) {
-            if ( ! vendors[x]) {
-                type = type.toLowerCase();
+        // Prefixed event check
+        $.fn.prefixedEvent = function (type, callback) {
+            for (var x = 0; x < vendorCount; ++x) {
+                if (!vendors[x]) {
+                    type = type.toLowerCase();
+                }
+
+                el = (this instanceof jQuery ? this[0] : this);
+                el.addEventListener(vendors[x] + type, callback, false);
             }
 
-            el = (this instanceof jQuery ? this[0] : this);
-            el.addEventListener(vendors[x] + type, callback, false);
-        }
+            return this;
+        };
 
-        return this;
-    };
+        // Test if element is in viewport
+        function elementInViewport(el) {
 
-    // Test if element is in viewport
-    function elementInViewport(el) {
+            if (el instanceof jQuery) {
+                el = el[0];
+            }
 
-        if (el instanceof jQuery) {
-            el = el[0];
-        }
+            var rect = el.getBoundingClientRect();
 
-        var rect = el.getBoundingClientRect();
-
-        return (
-            rect.top >= 0 &&
+            return (
+                rect.top >= 0 &&
                 rect.left >= 0 &&
                 rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
                 rect.right <= (window.innerWidth || document.documentElement.clientWidth)
             );
-    }
+        }
 
-    // Random array element
-    function randomArrayElem(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-    }
+        // Random array element
+        function randomArrayElem(arr) {
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
 
-    // Random integer
-    function randomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
+        // Random integer
+        function randomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
 
-    /** Actual plugin code **/
-    $.fn.sakura = function (event, options) {
+        /** Actual plugin code **/
+        $.fn.sakura = function (event, options) {
 
-        // Target element
-        var target = this.selector == "" ? $('body') : this;
+            // Target element
+            var target = this.selector == "" ? $('body') : this;
 
-        // Defaults for the option object, which gets extended below
-        var defaults = {
-            blowAnimations: ['blow-soft-left'],
-            className: 'sakura',
-            fallSpeed: 0.4,
-            maxSize: 14,
-            minSize: 10,
-            newOn: 900,
-            swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6', 'sway-7', 'sway-8']
-        };
-
-        var options = $.extend({}, defaults, options);
-
-        // Default or start event
-        if (typeof event === 'undefined' || event === 'start') {
-
-            // Set the overflow-x CSS property on the target element to prevent horizontal scrollbars
-            target.css({ 'overflow-x': 'hidden' });
-
-            // Function that inserts new petals into the document
-            var petalCreator = function () {
-                if (target.data('sakura-anim-id')) {
-                    setTimeout(function () {
-                        requestAnimationFrame(petalCreator);
-                    }, options.newOn);
-                }
-
-                // Get one random animation of each type and randomize fall time of the petals
-                var blowAnimation = randomArrayElem(options.blowAnimations);
-                var swayAnimation = randomArrayElem(options.swayAnimations);
-                var fallTime = ((document.documentElement.clientHeight * 0.007) + Math.round(Math.random() * 5)) * options.fallSpeed;
-
-                // Build animation
-                var animations =
-                    'fall ' + fallTime + 's linear 0s 1' + ', ' +
-                        blowAnimation + ' ' + (((fallTime > 30 ? fallTime : 30) - 20) + randomInt(0, 20)) + 's linear 0s infinite' + ', ' +
-                        swayAnimation + ' ' + randomInt(2, 4) + 's linear 0s infinite';
-
-                // Create petal and randomize size
-                var petal  = $('<div class="' + options.className + '" />');
-                var height = randomInt(options.minSize, options.maxSize);
-                var width  = height - Math.floor(randomInt(0, options.minSize) / 3);
-
-                // Apply Event Listener to remove petals that reach the bottom of the page
-                petal.prefixedEvent('AnimationEnd', function () {
-                    if ( ! elementInViewport(this)) {
-                        $(this).remove();
-                    }
-                })
-                // Apply Event Listener to remove petals that finish their horizontal float animation
-                .prefixedEvent('AnimationIteration', function (ev) {
-                    if (
-                        (
-                            $.inArray(ev.animationName, options.blowAnimations) != -1 ||
-                            $.inArray(ev.animationName, options.swayAnimations) != -1
-                        ) &&
-                        ! elementInViewport(this)
-                    ) {
-                        $(this).remove();
-                    }
-                })
-                .css({
-                    '-webkit-animation': animations,
-                    animation: animations,
-                    'border-radius': randomInt(options.maxSize, (options.maxSize + Math.floor(Math.random() * 10))) + 'px ' + randomInt(1, Math.floor(width / 4)) + 'px',
-                    height: height + 'px',
-                    left: (Math.random() * document.documentElement.clientWidth - 100) + 'px',
-                    'margin-top': (-(Math.floor(Math.random() * 20) + 15)) + 'px',
-                    width: width + 'px'
-                });
-
-                target.append(petal);
+            // Defaults for the option object, which gets extended below
+            var defaults = {
+                blowAnimations: ['blow-soft-left'],
+                className: 'sakura',
+                fallSpeed: 0.4,
+                maxSize: 14,
+                minSize: 10,
+                newOn: 900,
+                swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6',
+                    'sway-7', 'sway-8'
+                ]
             };
 
-            // Finally: Start adding petals
-            target.data('sakura-anim-id', requestAnimationFrame(petalCreator));
+            var options = $.extend({}, defaults, options);
 
-        }
-        // Stop event, which stops the animation loop and removes all current blossoms
-        else if (event === 'stop') {
+            // Default or start event
+            if (typeof event === 'undefined' || event === 'start') {
 
-            // Cancel animation
-            var animId = target.data('sakura-anim-id');
+                // Set the overflow-x CSS property on the target element to prevent horizontal scrollbars
+                target.css({
+                    'overflow-x': 'hidden'
+                });
 
-            if (animId) {
-                cancelAnimationFrame(animId);
-                target.data('sakura-anim-id', null);
+                // Function that inserts new petals into the document
+                var petalCreator = function () {
+                    if (target.data('sakura-anim-id')) {
+                        setTimeout(function () {
+                            requestAnimationFrame(petalCreator);
+                        }, options.newOn);
+                    }
+
+                    // Get one random animation of each type and randomize fall time of the petals
+                    var blowAnimation = randomArrayElem(options.blowAnimations);
+                    var swayAnimation = randomArrayElem(options.swayAnimations);
+                    var fallTime = ((document.documentElement.clientHeight * 0.007) + Math.round(Math.random() *
+                        5)) * options.fallSpeed;
+
+                    // Build animation
+                    var animations =
+                        'fall ' + fallTime + 's linear 0s 1' + ', ' +
+                        blowAnimation + ' ' + (((fallTime > 30 ? fallTime : 30) - 20) + randomInt(0, 20)) +
+                        's linear 0s infinite' + ', ' +
+                        swayAnimation + ' ' + randomInt(2, 4) + 's linear 0s infinite';
+
+                    // Create petal and randomize size
+                    var petal = $('<div class="' + options.className + '" />');
+                    var height = randomInt(options.minSize, options.maxSize);
+                    var width = height - Math.floor(randomInt(0, options.minSize) / 3);
+
+                    // Apply Event Listener to remove petals that reach the bottom of the page
+                    petal.prefixedEvent('AnimationEnd', function () {
+                            if (!elementInViewport(this)) {
+                                $(this).remove();
+                            }
+                        })
+                        // Apply Event Listener to remove petals that finish their horizontal float animation
+                        .prefixedEvent('AnimationIteration', function (ev) {
+                            if (
+                                (
+                                    $.inArray(ev.animationName, options.blowAnimations) != -1 ||
+                                    $.inArray(ev.animationName, options.swayAnimations) != -1
+                                ) &&
+                                !elementInViewport(this)
+                            ) {
+                                $(this).remove();
+                            }
+                        })
+                        .css({
+                            '-webkit-animation': animations,
+                            animation: animations,
+                            'border-radius': randomInt(options.maxSize, (options.maxSize + Math.floor(
+                                    Math.random() * 10))) + 'px ' + randomInt(1, Math.floor(width / 4)) +
+                                'px',
+                            height: height + 'px',
+                            left: (Math.random() * document.documentElement.clientWidth - 100) + 'px',
+                            'margin-top': (-(Math.floor(Math.random() * 20) + 15)) + 'px',
+                            width: width + 'px'
+                        });
+
+                    target.append(petal);
+                };
+
+                // Finally: Start adding petals
+                target.data('sakura-anim-id', requestAnimationFrame(petalCreator));
+
             }
+            // Stop event, which stops the animation loop and removes all current blossoms
+            else if (event === 'stop') {
 
-            // Remove all current blossoms
-            setTimeout(function() {
-                $('.' + options.className).remove();
-            }, (options.newOn + 50));
+                // Cancel animation
+                var animId = target.data('sakura-anim-id');
 
-        }
-    };
-}(jQuery));
-$(document).ready(function() {
-    $('.wrapper').sakura();
-});
+                if (animId) {
+                    cancelAnimationFrame(animId);
+                    target.data('sakura-anim-id', null);
+                }
+
+                // Remove all current blossoms
+                setTimeout(function () {
+                    $('.' + options.className).remove();
+                }, (options.newOn + 50));
+
+            }
+        };
+    }(jQuery));
+    $(document).ready(function () {
+        $('.wrapper').sakura();
+    });
 </script>
+
+</html>
